@@ -31,7 +31,7 @@ public:
         return marca;
     }
 
-    void setMarca(const std::string &S_marca) {
+    void setMarca(const std::string &S_marca) { 
         marca = S_marca;
     }
 
