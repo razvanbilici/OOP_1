@@ -1,10 +1,9 @@
-# OOP Template
+# Tema 1
 
-### Tema 0
+### Catalog Vanzare-Masini
 
-- [ ] nume proiect (îl puteți schimba ulterior)
-- [ ] Scurtă descriere a temei alese, ce v-ați propus să implementați
-- [ ] actualizat `.gitignore` dacă nu sunt ignorate fișierele (binare) generate de editor/IDE; puteți folosi https://gitignore.io
+- [ ] Mi-am propus sa implementez un catalog online pentru cei ce doresc sa isi cumpere o masina, acestia avand nu doar posibilitatea de a vizualiza date despre modelul dorit, ci si de a beneficia de reduceri in functie de caracteristicile acestuia.
+
 
 ## Tema 1
 
