@@ -1,5 +1,7 @@
 #include <iostream>
 
+//Bilici Mihai-Razvan, 162 - OOP_1
+
 class Masina {
 
     std::string marca;          // Atribute - private by default
