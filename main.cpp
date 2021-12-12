@@ -3,7 +3,7 @@
 #include <cmath>
 #include <vector>
 
-//Bilici Mihai-Razvan, 262 - OOP_1
+//Bilici Mihai-Razvan, 262 - OOP_2
 
 class Masina{
 
@@ -274,7 +274,7 @@ public:
         }
 
 
-        usleep(pow(1000, 2) - km100 * 10000);
+        usleep((km100 - floor(km100)) * 1000000);
 
         std::cout << km100 << "s...100 km/h\n\n";
 
@@ -593,7 +593,7 @@ int main() {
     c1.Cumpara(cat1, 0);    //Ok..
     c1.Cumpara(cat1, 2);    //Buget depasit..
 
-    std::cout << c1;            
+    std::cout << c1;
 
 
 
