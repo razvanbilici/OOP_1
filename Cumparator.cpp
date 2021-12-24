@@ -144,6 +144,6 @@ std::ostream &operator<<(std::ostream &os, Cumparator &cumparator) {
     os << "\nNume: " << cumparator.nume
        << "\nCNP: " << cumparator.CNP << "\n";
     cumparator.showCat();                   //*Am evitat invalid use of non-static data member
-    os << "\nBuget: " << cumparator.buget << "\n\n";
+    os << "\nBuget: " << cumparator.buget << " Euro\n\n";
     return os;
 }
