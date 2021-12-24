@@ -285,30 +285,46 @@ void Compara(Masina &m1, Masina &m2) {
 
 }
 
-void AplicaDiscount(Masina &m) {
+void Masina:: AplicaDiscount() {
 
-    std::cout << m.marca << " " << m.model << ", " << m.pret << " Euro - Se cauta discount...\n";
+    std::cout << marca << " " << model << ", " << pret << " Euro - Se cauta discount...\n";
 
-    if(m.discCheck == 0 || m.status == "Vandut") {   //In implementarea initiala se putea aplica discount-ul la infinit
+    if(discCheck == 0 || status == "Vandut") {   //In implementarea initiala se putea aplica discount-ul la infinit
 
         std::cout << "Discount deja verificat / aplicat sau masina vanduta!\n\n";
         return ;
     }
 
-    if(m.an_fabricatie > 2005) {
+    if(an_fabricatie > 2005) {
 
-        std::cout << m.marca << " " << m.model << ": Masina fabricata dupa anul 2005 - Fara Discount\n\n";
-        m.discCheck = false;
+        std::cout << marca << " " << model << ": Masina fabricata dupa anul 2005 - Fara Discount\n\n";
+        discCheck = false;
         return;
     }
 
 
-    std::cout << m.marca << " " << m.model << ": Discount de 5% - masina fabricata inainte de anul 2005\n";
+    std::cout << marca << " " << model << ": Discount de 5% - masina fabricata inainte de anul 2005\n";
 
-    m.pret -= m.pret / 20;
+    pret -= pret / 20;
 
-    std::cout << "Pret actualizat: " << m.marca << " " << m.model << " - " << m.pret << " Euro\n\n";
+    std::cout << "Pret actualizat: " << marca << " " << model << " - " << pret << " Euro\n\n";
 
-    m.discCheck = false;
+    discCheck = false;
+
+}
+
+void Masina::afis() {
+
+    std::cout << "Marca: " << marca
+              << "\nModel: " << model
+              << "\nCapacitate cilindrica motor (L): " << motor
+              << "\nCuloare: " << culoare
+              << "\nSecond Hand (Da / Nu): " << second_hand
+              << "\nCategorie Permis Conducere: " << categorie
+              << "\nAnul Fabricarii: " << an_fabricatie
+              << "\nKm: " << km
+              << "\nPret: " << pret << " Euro"
+              << "\nTimp 100 km/h (s): " << km100
+              << "\nStatus: " << status << "\n\n";
 
 }
