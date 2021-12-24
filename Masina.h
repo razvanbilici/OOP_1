@@ -12,6 +12,7 @@
 
 class Masina{
 
+protected:
     std::string marca;          // Atribute - private by default
     std::string model;
 
@@ -86,11 +87,15 @@ public:
 
 
     //Arata numarul de secunde in care masina ajunge la 100/km (*de implementat un GUI*)
-    void ShowTimer100() const;
+    virtual void ShowTimer100() const;
 
     friend void Compara(Masina &m1, Masina &m2);
 
-    friend void AplicaDiscount(Masina &m);
+    //Discount aplicat pe un principiu diferit daca masina este electrica
+    virtual void AplicaDiscount();
+
+    //Ulterior pentru subclase
+    virtual void afis();
 
 
 };
