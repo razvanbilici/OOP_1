@@ -1,0 +1,59 @@
+Sat Jun 04 04:19:53 2022
+ Main Run
+
+Sat Jun 04 04:19:53 2022
+ Eroare la crearea obiectului!
+
+Sat Jun 04 04:19:53 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:19:53 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:19:53 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:19:53 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:19:53 2022
+ Obiect MASINA creat (((BUILDER CLASS)))
+
+Sat Jun 04 04:19:53 2022
+ (ionPopescu1) Verificare Permis
+
+Sat Jun 04 04:19:59 2022
+ (JDEPP22) Oferta Initiata
+
+Sat Jun 04 04:20:37 2022
+ Main Run
+
+Sat Jun 04 04:20:37 2022
+ Eroare la crearea obiectului!
+
+Sat Jun 04 04:20:37 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:20:37 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:20:37 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:20:37 2022
+ Obiect MASINA creat
+
+Sat Jun 04 04:20:37 2022
+ Obiect MASINA creat (((BUILDER CLASS)))
+
+Sat Jun 04 04:20:37 2022
+ (ionPopescu1) Verificare Permis
+
+Sat Jun 04 04:20:39 2022
+ (JDEPP22) Oferta Initiata
+
+Sat Jun 04 04:20:42 2022
+ Main Exited Successfully
+---------------------------------------------
+
+
